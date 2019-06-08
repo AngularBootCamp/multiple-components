@@ -12,4 +12,4 @@ import { Component } from '@angular/core';
     </div>
   `
 })
-export class HrFilesSearchComponent { }
+export class HrFilesSearchComponent {}
