@@ -9,9 +9,9 @@ import { SearchBoxComponent } from './search/search-box.component';
 @NgModule({
   declarations: [
     AppComponent,
-    SearchBoxComponent,
     HrFilesSearchComponent,
-    PayrollSearchComponent
+    PayrollSearchComponent,
+    SearchBoxComponent
   ],
   imports: [BrowserModule],
   bootstrap: [AppComponent]
