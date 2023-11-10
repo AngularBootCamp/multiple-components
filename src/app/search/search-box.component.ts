@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-search-box',
   template: `
     <input type="search" placeholder="Search" />
-  `
+  `,
+  standalone: true
 })
 export class SearchBoxComponent {}

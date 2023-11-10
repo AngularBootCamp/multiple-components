@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { SearchBoxComponent } from '../search/search-box.component';
+
 @Component({
   selector: 'app-hr-files-search',
   template: `
@@ -8,6 +10,8 @@ import { Component } from '@angular/core';
       <p>Search for Employee HR Records</p>
       <app-search-box></app-search-box>
     </article>
-  `
+  `,
+  standalone: true,
+  imports: [SearchBoxComponent]
 })
 export class HrFilesSearchComponent {}
