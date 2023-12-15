@@ -8,7 +8,7 @@ import { SearchBoxComponent } from '../search/search-box.component';
     <article>
       <header>Payroll Functionality</header>
       <p>Search for Employee Payroll Records</p>
-      <app-search-box></app-search-box>
+      <app-search-box />
     </article>
   `,
   standalone: true,

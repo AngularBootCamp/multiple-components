@@ -8,7 +8,7 @@ import { SearchBoxComponent } from '../search/search-box.component';
     <article>
       <header>HR Functionality</header>
       <p>Search for Employee HR Records</p>
-      <app-search-box></app-search-box>
+      <app-search-box />
     </article>
   `,
   standalone: true,

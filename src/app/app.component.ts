@@ -6,8 +6,8 @@ import { PayrollSearchComponent } from './payroll/payroll-search.component';
 @Component({
   selector: 'app-root',
   template: `
-    <app-payroll-search></app-payroll-search>
-    <app-hr-files-search></app-hr-files-search>
+    <app-payroll-search />
+    <app-hr-files-search />
   `,
   standalone: true,
   imports: [PayrollSearchComponent, HrFilesSearchComponent]
